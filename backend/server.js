@@ -8,7 +8,7 @@ const API_PORT = 3001;
 const app = express();
 const router = express.Router();
 
-const dbRoute = "mongodb+srv://react:<password>@reshma-v18xg.mongodb.net/test?retryWrites=true";
+const dbRoute = "mongodb+srv://<username>:<password>@reshma-v18xg.mongodb.net/test?retryWrites=true";
 
 // connects our back end code with the database
 mongoose.connect(
